@@ -1,0 +1,24 @@
+*{
+    margin: 0;/*espaçamento externo*/
+    padding: 0;/*expaçamento interno*/
+}
+h1 {
+    color: blueviolet; 
+    background-color: bisque;
+    font-size: 50px;
+    margin: 50px;
+    padding: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: monospace;
+    letter-spacing: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: solid black 5px;
+    box-shadow: rgba(0, 0, 0, 0.500) 10px 10px 20px;
+}
+
+p {
+    text-align: justify;
+    margin: 50px;
+}
