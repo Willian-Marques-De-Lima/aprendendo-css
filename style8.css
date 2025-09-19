@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    background-attachment: fixed;/* efeito parallax */
+}
+
+.div1, .div3, .div5 {
+    color: white;
+}
+
+.div1{
+    background-image: url("./img/bg1.jpg");
+}
+
+.div3{
+    background-image: url(./img/bg3.jpeg);
+}
+
+.div5{
+    background-image: url(./img/bg5.jpg);
+}
+p{
+    margin-top: 30px;
+}

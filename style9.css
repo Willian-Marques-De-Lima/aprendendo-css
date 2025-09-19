@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0px;
+    background: #222;
+
+    & .box{
+        background: rgb(152,32,175);
+        width: 200px;
+        height: 200px;
+    }
+}
